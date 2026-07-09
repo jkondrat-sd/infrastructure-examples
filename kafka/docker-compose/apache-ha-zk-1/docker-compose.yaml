@@ -3,7 +3,7 @@
 
 services:
   zookeeper1:
-    image: harbor.example.com/library/bitnami/zookeeper:3.9
+    image: soldevelo/zookeeper:3.9
     hostname: zookeeper1
     environment:
       ZOO_SERVER_ID: 1
@@ -24,7 +24,7 @@ services:
       - zookeeper_volume1:/bitnami/zookeeper
 
   zookeeper2:
-    image: harbor.example.com/library/bitnami/zookeeper:3.9
+    image: soldevelo/zookeeper:3.9
     hostname: zookeeper2
     environment:
       ZOO_SERVER_ID: 2
@@ -45,7 +45,7 @@ services:
       - zookeeper_volume2:/bitnami/zookeeper
 
   zookeeper3:
-    image: harbor.example.com/library/bitnami/zookeeper:3.9
+    image: soldevelo/zookeeper:3.9
     hostname: zookeeper3
     environment:
       ZOO_SERVER_ID: 3

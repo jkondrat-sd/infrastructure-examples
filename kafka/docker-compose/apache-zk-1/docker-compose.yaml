@@ -3,7 +3,7 @@
 
 services:
   zookeeper:
-    image: bitnami/zookeeper:3.9
+    image: soldevelo/zookeeper:3.9
     hostname: zookeeper
     ports:
       - "2181:2181"

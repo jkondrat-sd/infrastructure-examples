@@ -8,7 +8,7 @@ set -o errtrace
 
 ######################################################################
 
-docker build -f Dockerfile.zookeeper -t harbor.example.com/library/bitnami/zookeeper:3.9 .
+docker build -f Dockerfile.zookeeper -t soldevelo/zookeeper:3.9 .
 docker build -f Dockerfile.kafka -t harbor.example.com/library/bitnami/kafka:3.8 .
 docker build -f Dockerfile.schema-registry -t harbor.example.com/library/confluentinc/cp-schema-registry:7.7.0 .
 

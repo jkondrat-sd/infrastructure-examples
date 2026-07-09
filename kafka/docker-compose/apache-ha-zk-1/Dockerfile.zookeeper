@@ -1,4 +1,4 @@
-FROM bitnami/zookeeper:3.9
+FROM soldevelo/zookeeper:3.9
 
 USER root
 RUN mkdir -p /usr/share/prometheus && \
